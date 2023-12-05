@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Formulaire</title>
+</head>
+<body class="relative  h-[100vh] w-[100vw] flex  justify-center">
+    <img src="assets/bg.jpg" alt="" class="h-[100vh] w-[100vw]  ">
+    <nav class="w-[100vw] h-[60px] flex absolute top-[10px]  ">
+        <ul class="w-[50vw] flex  space-x-4 pl-10 text-slate-50 text-xl">
+            <li class="hover:te">Accueil</li>
+            <li>A propos</li>
+            <li>Galerie</li>
+            <li>Nous contacter</li>
+        </ul>
+        <div class="flex  h-[30px] w-[50vw] items-center justify-end mr-10">
+            <input type="search" name="" id="" placeholder="Votre Recherche" class="border-2 rounded-lg ">
+            <img src="assets/search.png" alt="" class="h-[20px] m-[-25px]">
+        </div>
+    </nav>
+    <main class=" grid grid-cols-2 absolute h-[70vh] w-[75vw] top-28  rounded-[20px] border-[1px] border-[#c4d6ee] backdrop-blur-sm bg-white/30">
+     <div class="text-[#473a3a] m-20">
+        <div class="flex items-center ">
+            <span class="material-symbols-outlined">
+                code
+            </span>
+            <h2 class="text-[30px]">GUELLAL MOHAND</h2>
+         </div>
+         <div class="">
+            <H2 class="text-[25px] mt-8">AZUL</H2>
+            <H3 class="text-[20px] mt-6">ANSUF YISWAN</H3>
+            <P class="text-[18px] mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor at odio alias ex similique aut culpa numquam. Animi nisi quis deleniti neque reiciendis dolorem ducimus voluptas. Magni, iste eos? Labore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod inventore quam praesentium vero nulla aliquid quia excepturi fugiat porro deleniti ea aut est delectus explicabo unde, nemo ipsam accusamus laborum!</P>
+         </div>
+     </div>
+     <div class="mt-16 w-[80%]" >
+        <form action="" class="flex flex-col justify-center text-[#473a3a] text-[16px] ">
+            <label for="Nom" class="mt-[15px]">Nom</label>
+            <input type="Nom" class="bg-transparent border-b-[1px] border-[#473a3a] ">
+            <label for="Prenom" class="mt-[15px]">Prenom</label>
+            <input type="Prenom" class="bg-transparent border-b-[1px] border-[#473a3a] ">
+            <label for="email" class="mt-[15px]">E-Mail</label>
+            <input type="email" name="" id="email" class="bg-transparent border-b-[1px] border-[#473a3a] ">
+            <label for="password" class="mt-[15px]">Mot de passe</label>
+            <input type="password" name="" id="password" class="bg-transparent border-b-[1px] border-[#473a3a] ">
+            <label for="Confirme" class="mt-[15px]">Confirmer</label>
+            <input type="password" name="" id="Confirme" class="bg-transparent border-b-[1px] border-[#473a3a] ">
+            <div class="flex  w-[100%] justify-between items-center mt-[15px]">
+                <div class="">
+                    <input type="checkbox" name="" id="">
+                <label for="checkbox" class="hover:hover:text-[#ffff] hover:border-b[1px] hover:border-[#ffff]">Se souvenir de moi</label>
+                </div>
+                <div class="mr-3">
+                    <a href="" class="hover:text-slate-200 hover:border-b-2 hover:ease-in duration-150">Sign in</a>
+                </div>
+            </div>
+            <div class="flex justify-center"><button class=" backdrop-blur-sm bg-[#FECDA6]/30 h-[36px] w-[80%] rounded-[5px] mt-[35px] hover:bg-transparent hover:border-[1px] hover:border-[#FECDA6] hover:text-[#ffff]">Crée un compte</button></div>
+            
+        </form>
+
+     </div>
+    </main>
+    <script src="assets/main.js"></script>
+</body>
+</html>
