@@ -560,6 +560,58 @@ video {
   top: 10px;
 }
 
+.top-0 {
+  top: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
+.top-40 {
+  top: 10rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
+.right-\[\] {
+  right: ;
+}
+
+.right-\[1\] {
+  right: 1;
+}
+
+.right-\[100px\] {
+  right: 100px;
+}
+
+.top-\[\] {
+  top: ;
+}
+
+.top-\[100px\] {
+  top: 100px;
+}
+
+.right-\[110px\] {
+  right: 110px;
+}
+
+.right-\[115px\] {
+  right: 115px;
+}
+
 .m-20 {
   margin: 5rem;
 }
