@@ -87,3 +87,16 @@ formul.mail.addEventListener('input', ({target: {value } })=>{
         lbmail.style.color = '#09AB32'
     }
 });
+formul.psswrd.addEventListener('input', ({target: {value } })=>{
+    
+    if (value.includes(/[A-Z]/) ){
+        psswrd.style.borderColor = '#09AB32'
+        lbpsswrd.style.color = '#09AB32'
+        console.log('cc')
+    }
+    else {
+        
+        psswrd.style.borderColor = '#2209ff'
+        lbpsswrd.style.color = '#2209ff'
+    }
+});
